@@ -1,0 +1,1 @@
+import React from \"react\";\nexport default function UnifiedInputCard() {\n  return (\n    <div className=\"input-card\">\n      <div className=\"dropzone\">Drag & drop image or text</div>\n      <div className=\"confidence-meter\">Auto-detected (confidence: 92%)</div>\n    </div>\n  );\n}

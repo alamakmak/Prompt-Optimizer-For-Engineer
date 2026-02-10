@@ -1,1 +1,1 @@
-import React from \"react\";\nexport default function App() {\n  return <div className=\"App\">Prompt Optimizer Engine</div>;\n}
+import React from \"react\";\nimport UnifiedInputCard from \"./components/UnifiedInputCard\";\nexport default function VisionAnalyzer() {\n  return (\n    <div className=\"vision-analyzer\">\n      <h1>Prompt Optimizer Engine</h1>\n      <UnifiedInputCard />\n      <div className=\"results-placeholder\">Analysis results will appear here</div>\n    </div>\n  );\n}
